@@ -60,13 +60,13 @@ address {
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 /* HEADER */
 .header {
     background: var(--color-white);
-    border-bottom: 1px var(--border-color);
+    border-bottom: 1px solid var(--border-color);
 }
 .main-nav {
     display: flex;
@@ -160,7 +160,8 @@ address {
     padding-bottom: 200px;
 }
 .hero-title {
-    
+    width: 696px;
+    margin: 0 auto;
     margin-bottom: 30px;
 
     font-weight: 900;
@@ -288,14 +289,13 @@ address {
 /* FOOTER AND ADDRESS */
 
 .footer {
+    padding: 60px 0;
     background: var(--background);
 }
-.footer-nav {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-.footer-logo {
-    margin-bottom: 20px;
+
+.footer .logo {
+    display: inline-block;
+    /* margin-bottom: 20px; */
 }
 .logo-footer {
     color: var(--color-white);
@@ -304,7 +304,9 @@ address {
 .footer-address {}
 
 .address-list {}
-
+.address-item:first-child {
+    margin-top: 20px;
+}
 .address-item:not(:last-child) {
     margin-bottom: 9px;
 }
@@ -335,7 +337,6 @@ address {
 
 /* FILTERS */
 
-.filters {}
 
 .filters-list {
     display: flex;
@@ -368,11 +369,6 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 }
 
 /* CARDS */
-
-.cards {
-    
-
-}
 
 .cards-list {
     display: flex;
