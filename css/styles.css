@@ -13,6 +13,7 @@
     --color-white: #FFFFFF;
     --border-color: #ECECEC;
     --border-card: #EEEEEE;
+    --icon-main-color: #afb1b8;
 }
 /* GLOBAL PAGE STYLES */
 body {
@@ -297,15 +298,15 @@ address {
 }
 
 .team-soc-item {
-    display: block;
+    
     margin-bottom: 30px;
 
 }
 
 .team-soc-link {
-    width: 100%;
-    height: 100%;
-    background-color: tomato;
+    width: 44px;
+    height: 44px;
+    background-color: var(--color-white);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -313,7 +314,7 @@ address {
 }
 
 .team-soc-icon {
-    fill: #AFB1B8;
+    fill: var(--icon-main-color);
 }
 
 .team-soc-link:hover,
