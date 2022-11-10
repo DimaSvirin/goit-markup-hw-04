@@ -349,16 +349,29 @@ address {
 }
 
 .clients-item {
-    width: 170px;
-    height: 92px;
     display: block;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
 }
-.clients-link {}
+.clients-link {
+    width: 170px;
+        height: 92px;
+        display: flex;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        align-items: center;
+        justify-content: center;
+}
 
 .client-logo {}
 
+.clients-link:hover,
+.clients-link:focus {
+    border-color: var(--active-color);
+}
+
+.clients-link:hover .client-logo,
+.clients-link:focus .client-logo {
+    fill: var(--active-color);
+}
 /* FOOTER AND ADDRESS */
 
 .footer {
