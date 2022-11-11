@@ -383,7 +383,7 @@ address {
     padding: 60px 0;
     background: var(--background);
 }
-
+.address {}
 .footer .logo {
     display: inline-block;
     /* margin-bottom: 20px; */
@@ -420,6 +420,56 @@ address {
     color: var(--active-color);
 }
 
+/* FOOTER SOCIALS LIST */
+.ad-soc {
+    display: flex;
+}
+
+.footer-socials {
+    margin-left: 70px;
+    
+}
+.footer-soc-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-white);
+    margin-bottom: 20px;
+}
+.footer-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-soc-item {
+    display: block;
+}
+
+.footer-soc-link {
+    width: 44px;
+    height: 44px;
+    background-color: var(--background);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+}
+
+.footer-soc-icon {
+    fill: currentColor;
+}
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: var(--active-color);
+}
+
+.footer-soc-link:hover .footer-soc-icon,
+.footer-soc-link:focus .footer-soc-icon {
+    fill: var(--color-white);
+}
 /* PORTFOLIO */
 .portfolio {
     background: var(--color-white);
