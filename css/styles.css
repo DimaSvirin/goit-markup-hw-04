@@ -311,10 +311,11 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--icon-main-color);
 }
 
 .team-soc-icon {
-    fill: var(--icon-main-color);
+    fill: currentColor;
 }
 
 .team-soc-link:hover,
@@ -360,9 +361,12 @@ address {
         border-radius: 4px;
         align-items: center;
         justify-content: center;
+        color: var(--icon-main-color);
 }
 
-.client-logo {}
+.client-logo {
+    fill: currentColor;
+}
 
 .clients-link:hover,
 .clients-link:focus {
