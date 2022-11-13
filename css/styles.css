@@ -155,7 +155,7 @@ address {
     padding-bottom: 94px;
 }
 .hero-section {
-    /* max-width: 1600px; */
+    max-width: 1600px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/bgimage.jpg);
     padding-top: 200px;
@@ -386,7 +386,6 @@ address {
 .address {}
 .footer .logo {
     display: inline-block;
-    /* margin-bottom: 20px; */
 }
 .logo-footer {
     color: var(--color-white);
@@ -423,13 +422,11 @@ address {
 /* FOOTER SOCIALS LIST */
 .ad-soc {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-socials {
-    /* display: inline-block;
-    align-items: center; */
     margin-left: 70px;
-    
 }
 .footer-soc-title {
     font-size: 14px;
