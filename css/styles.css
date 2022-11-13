@@ -127,11 +127,15 @@ address {
     display: flex;
     margin-left: auto;
 }
-
+.header-contacts-item {
+    display: flex;
+}
 .header-contacts-item:not(:last-child) {
     margin-right: 50px;
 }
-
+.header-contacts-icon {
+    display: block;
+}
 .header-contacts-item .link {
     display: block;
         padding-top: 32px;
@@ -147,6 +151,7 @@ address {
 .header-contacts .link:focus {
     color: var(--active-color);
 }
+
 
 /* MAIN */
 /* HERO SECTION */
