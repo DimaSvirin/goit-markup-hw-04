@@ -127,31 +127,31 @@ address {
     display: flex;
     margin-left: auto;
 }
-.header-contacts-item {
-    display: flex;
-}
+.header-contacts-item {}
 .header-contacts-item:not(:last-child) {
     margin-right: 50px;
 }
 .header-contacts-icon {
-    display: block;
+    height: 100%;
+    fill: currentColor;
 }
 .header-contacts-item .link {
-    display: block;
+    display: flex;
+    align-items: center;
         padding-top: 32px;
         padding-bottom: 32px;
-
+    gap: 10px;
     font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--main-text-color);
 }
-.header-contacts .link:hover,
+.header-contacts .link:hover ,
 .header-contacts .link:focus {
     color: var(--active-color);
+    fill: var(--active-color);
 }
-
 
 /* MAIN */
 /* HERO SECTION */
